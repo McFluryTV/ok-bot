@@ -1,0 +1,2 @@
+if message.author.id == someone_to_censor_id and "ok" in message.content:
+    await message.delete()
